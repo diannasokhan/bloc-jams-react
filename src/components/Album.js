@@ -52,6 +52,11 @@ class Album extends Component{
 			return (
 			<span className='ion-play'></span>)
 		}
+		else if(this.state.onHover === index){
+			return(
+				<span className='ion-play'></span>
+			)
+		}
 		else return <span> {index + 1}</span>
 		}
 		handleMouseEnter(index){
@@ -79,8 +84,8 @@ class Album extends Component{
 					</colgroup>
 					<tbody>
 					{this.state.album.songs.map((song, index) =>
-					<tr className="song" key={index} onClick={() => this.handleSongClick(song)} onMouseEnter={() => this.handleMouseEnter(index)} onMouseLeave={() => this.handleMouseLeave()} >
-						<td className="song-action">
+					<tr className="song" key={index} onClick={() => this.handleSongClick(song)}>
+						<td className="song-action" onMouseEnter={() => this.handleMouseEnter(index)} onMouseLeave={() => this.handleMouseLeave()} >
 							<button id="song-action-btn">
 								{this.getSongIcon(song, index)}	
 							</button>

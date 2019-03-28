@@ -2,7 +2,6 @@ import React, { Component } from 'react';
 import albumData from './../data/albums';
 import PlayerBar from './PlayerBar'
 
-
 class Album extends Component{
 	constructor(props) {
 		super(props);
@@ -150,7 +149,7 @@ class Album extends Component{
 							</button>
 						</td>
 						<td className="song-title">{song.title}</td>
-						<td className="song-duration">{song.duration}</td>
+						<td className="song-duration">{this.formatTime(song.duration)}</td>
 					</tr>
 					 )}
 					</tbody>

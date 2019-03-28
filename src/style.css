@@ -1,0 +1,144 @@
+body {
+   background-image: url("images/background_image.jpg");
+   background-size: cover
+}
+#navLink {
+   float: right;
+   padding: 10px;
+   color: black;
+   text-decoration: none;
+}
+header>h1 {
+   padding-left: 10%;
+   margin: 0px;
+   font-family: 'Bilbo', cursive;
+   font-size: 60px;
+   border-bottom-style: groove
+}
+#title-box {
+   padding: 0px;
+   margin: 0px;
+   width: 100%;
+   height: 350px; 
+   background-image: url("images/audience-backlit-band-154147.jpg");
+   background-size: 100% 100%;
+   opacity: 0.75; 
+   position: relative;
+
+}
+.hero-title {
+   font-family: 'Megrim', cursive;
+   font-size: 60px;
+   color:rgb(247, 243, 243);
+   text-align: center;
+   width: 100%;
+   position: absolute;
+   top: 100;
+   bottom: 0;
+   
+}
+.selling-points{
+   display: table;
+   padding-left: 20%;
+   padding-right: 20%
+}
+.point {
+   float: left;
+   width: 33.33%
+}
+.ion-headphone {
+  font-size: 20px;
+}
+.ion-radio-waves {
+   font-size: 20px;
+}
+.ion-iphone {
+   font-size: 20px;
+}
+.point-title {
+   font-size: 15px;
+}
+.point-description {
+   font-size: 15px
+}
+.library {
+margin: 5%;
+display: grid;
+grid-template-columns: 25% 25% 25% 25%;
+
+}
+#album-img {
+   height: 60%;
+   width: 60%;
+}
+.album-link {
+   text-decoration: none;
+   color: black;
+}
+.album {
+   margin: 5%;
+}
+#album-cover-art {
+   height: 30%;
+   width: 30%;
+   float: left;
+}
+.album-details {
+  text-align: center; 
+  margin-bottom: 20px;
+}
+.song {
+   text-align: center
+}
+table {
+   width: 70%;
+}
+td {
+   border-bottom: 1px solid #ddd;
+}
+#song-action-btn {
+   border:none;
+   background: none;
+   outline: none;
+}
+.player-bar {
+   width: 100%;
+   clear: left;
+  
+}
+#previous {
+   border:none;
+   background: none;
+   font-size: 20px;
+   outline: none;
+}
+#play-pause {
+   border:none;
+   background: none;
+   outline: none;
+}
+#play-pause .ion-play {
+   font-size: 30px;
+   margin-left: 40px;
+   margin-right: 40px
+}
+#play-pause .ion-pause {
+   font-size: 30px;
+   margin-left: 40px;
+   margin-right: 40px
+}
+#next {
+   border:none;
+   outline: none;
+   background: none;
+   font-size: 20px;
+}
+.seek-bar {
+   width: 80%
+}
+.ion-volume-low {
+   font-size: 20px;
+}
+.ion-volume-high {
+   font-size: 20px;
+}

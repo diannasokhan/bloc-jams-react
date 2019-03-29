@@ -13,10 +13,10 @@ export default [{
   ]
 }, 
 {
-  title: 'The Colors',
-  artist: 'Pablo Picasso',
+  title: 'Walking in the Night',
+  artist: 'The Sleeves',
   releaseInfo: '1909 Spanish Records',
-  albumCover: '/assets/images/album_covers/01.jpg',
+  albumCover: '/assets/images/album_covers/02.jpg',
   slug: 'the-colors',
   songs: [
       { title: 'Blue', duration: '161.71', audioSrc: '/assets/music/blue.mp3' },
@@ -27,10 +27,10 @@ export default [{
   ]
 },
 {
-  title: 'The Colors',
-  artist: 'Pablo Picasso',
+  title: '10 from 6',
+  artist: 'Bad Company',
   releaseInfo: '1909 Spanish Records',
-  albumCover: '/assets/images/album_covers/01.jpg',
+  albumCover: '/assets/images/album_covers/03.jpg',
   slug: 'the-colors',
   songs: [
       { title: 'Blue', duration: '161.71', audioSrc: '/assets/music/blue.mp3' },
@@ -41,10 +41,10 @@ export default [{
   ]
 },
 {
-  title: 'The Colors',
-  artist: 'Pablo Picasso',
+  title: 'The Return',
+  artist: 'CK meyers',
   releaseInfo: '1909 Spanish Records',
-  albumCover: '/assets/images/album_covers/01.jpg',
+  albumCover: '/assets/images/album_covers/04.jpg',
   slug: 'the-colors',
   songs: [
       { title: 'Blue', duration: '161.71', audioSrc: '/assets/music/blue.mp3' },
@@ -55,10 +55,10 @@ export default [{
   ]
 },
 {
-  title: 'The Colors',
-  artist: 'Pablo Picasso',
+  title: 'Magic Bus',
+  artist: 'Candy',
   releaseInfo: '1909 Spanish Records',
-  albumCover: '/assets/images/album_covers/01.jpg',
+  albumCover: '/assets/images/album_covers/05.jpg',
   slug: 'the-colors',
   songs: [
       { title: 'Blue', duration: '161.71', audioSrc: '/assets/music/blue.mp3' },
@@ -69,10 +69,10 @@ export default [{
   ]
 },
 {
-  title: 'The Colors',
-  artist: 'Pablo Picasso',
+  title: 'Neverland',
+  artist: 'JC',
   releaseInfo: '1909 Spanish Records',
-  albumCover: '/assets/images/album_covers/01.jpg',
+  albumCover: '/assets/images/album_covers/06.jpg',
   slug: 'the-colors',
   songs: [
       { title: 'Blue', duration: '161.71', audioSrc: '/assets/music/blue.mp3' },
@@ -82,10 +82,10 @@ export default [{
       { title: 'Magenta', duration: '374.22', audioSrc: '/assets/music/magenta.mp3' }
   ]
 },{
-    title: 'The Telephone',
-    artist: 'Guglielmo Marconi',
+    title: 'Teen Spirit',
+    artist: 'Nirvana',
     releaseInfo: '1909 EM',
-    albumCover: '/assets/images/album_covers/02.jpg',
+    albumCover: '/assets/images/album_covers/07.jpg',
     slug: 'the-telephone',
     songs: [
       { title: 'Blue', duration: '161.71', audioSrc: '/assets/music/blue.mp3' },
